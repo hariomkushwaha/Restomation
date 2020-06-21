@@ -6,11 +6,14 @@ import MenuPage from './pages/menu/menu.component';
 import Header from './components/header/header.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 
+import { GlobalStyle } from './global-styles/global.styles';
+
 
 function App() {
   return (
 
     <div>
+    <GlobalStyle/>
     <Header/>
     <Switch>
     <Route exact path='/' component={HomePage}/>

@@ -1,13 +1,13 @@
 import React from 'react';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
 
 import './header.styles.scss';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
 const Header = ({hidden})=>(
-    <div className='header'>
+    <div className='header '>
     <div className='options'>
     <Link className='option' to='/'>
     Home
