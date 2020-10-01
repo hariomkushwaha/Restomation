@@ -11,7 +11,7 @@
       height: 60px;
       margin-bottom:20px;
     }
-  
+
     .logo-container {
       height: 100%;
       width: 70px;
@@ -22,21 +22,36 @@
         padding: 0;
       }
     }
-  
+
     .options {
-      width: 50%;
+      width: 100%;
       height: 100%;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: space-around;
+      font-size: 2.5rem;
+      .cart-icon {
+        .item-count {
+          top: 17px;
+          font-size: 1rem;
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
 
       @media screen and (max-width:800px) {
-        width: 80%;
-      }
-      
-  
-      .option {
-        padding: 10px 15px;
+        font-size: 1.5rem;
+        .cart-icon{
+          .item-count {
+            font-size: 0.8rem;
+          }
+          svg {
+            width: 60%;
+            height: 60%;
+          }
+        }
       }
     }
   }
