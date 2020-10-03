@@ -8,8 +8,9 @@
   
     .checkout-header {
       width: 100%;
-      padding: 10px 0;
+      padding: 10px 5px;
       display: flex;
+      background: linear-gradient(blue, pink, blue);
       justify-content: space-between;
       border-bottom: 1px solid darkgrey;
   
@@ -25,7 +26,7 @@
   
     .total {
       margin-top: 30px;
-      margin-left: auto;
+      margin: auto;
       font-size: 36px;
     }
   }
