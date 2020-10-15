@@ -1,11 +1,11 @@
 .checkout-item {
     width: 100%;
     display: flex;
+    align-items: center;
     min-height: 100px;
     border-bottom: 1px solid darkgrey;
     padding: 15px 0;
     font-size: 20px;
-    align-items: center;
   
     .image-container {
       width: 23%;
@@ -27,15 +27,25 @@
       
       .arrow{
           cursor: pointer;
+          margin-right: 1rem;
+          margin-left: 1rem;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+
       }
 
       .value{
           margin: 0 10px;
+          
       }
     }
   
     .remove-button {
       padding-left: 12px;
       cursor: pointer;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
     }
   }
